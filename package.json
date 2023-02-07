@@ -1,0 +1,37 @@
+{
+  "name": "thisIsName",
+  "author": "nugenjs",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "companyName": "comapny name",
+  "pebble": {
+    "displayName": "displayName",
+    "uuid": "8fd9d28a-e88e-458b-bfd7-33b698089936",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "font",
+          "name": "FONT_PERFECT_DOS_48",
+          "file": "fonts/perfect-dos-vga.ttf",
+          "compatibility":"2.7"
+        }
+      ]
+    }
+  }
+}

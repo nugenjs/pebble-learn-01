@@ -1,0 +1,17 @@
+pebble new-project projName //--simple for no demo code
+set watchapp: {watchface: true}
+// allow up down buttons
+pebble install --emulator basalt
+pebble install --logs --emulator basalt
+app_event_loop() // watchapp wait for system events until it exits
+pebble install --phone 192.168.1.78
+
+Instead of using the --phone flag every time you install, set the PEBBLE_PHONE environment variable: export PEBBLE_PHONE=192.168.1.78 and simply use pebble install.
+
+if on windows, code . from within WSL
+
+install c/c++ extension
+cmd shft p  edit: c/c++: edit configs (ui)
+https://gist.github.com/dmorgan81/1f8740fa49b3bcb6219a713dcb33b2bc <- how I fugred it out
+
+pebble wipe (when pebble emulaotr gets stuck)
