@@ -15,3 +15,5 @@ cmd shft p  edit: c/c++: edit configs (ui)
 https://gist.github.com/dmorgan81/1f8740fa49b3bcb6219a713dcb33b2bc <- how I fugred it out
 
 pebble wipe (when pebble emulaotr gets stuck)
+
+RESOURCE_ID_FONT_PERFECT_DOS_48 prepend RESOURCE_ID and end with 48 as the height or any other number
