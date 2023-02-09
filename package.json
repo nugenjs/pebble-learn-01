@@ -12,9 +12,7 @@
     "sdkVersion": "3",
     "enableMultiJS": true,
     "targetPlatforms": [
-      "aplite",
       "basalt",
-      "chalk",
       "diorite"
     ],
     "watchapp": {
@@ -27,9 +25,20 @@
       "media": [
         {
           "type": "font",
-          "name": "FONT_PERFECT_DOS_48",
+          "name": "FONT_PERFECT_DOS_32",
           "file": "fonts/perfect-dos-vga.ttf",
           "compatibility":"2.7"
+        },
+        {
+          "type": "font",
+          "name": "FONT_PERFECT_DOS_20",
+          "file": "fonts/perfect-dos-vga.ttf",
+          "compatibility":"2.7"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BACKGROUND",
+          "file": "images/background.png"
         }
       ] 
     }
