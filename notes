@@ -1,3 +1,20 @@
+# // TODO organize
+#Symbolic Link python to python2.7
+sudo ln -s /bin/python2.7 /bin/python
+
+PEBBLE-DEV TO PEBBLE2-dev
+
+
+export PATH=~/.local/bin:$PATH
+
+
+(printf prints to stdout, APP_LOG sends through the bt connection (from the watch or emulator)
+
+end in https://apps.rebble.io/en_US/application/52a9ea24d78eb4588c000001?dev_settings=true
+to download the source code
+
+
+
 pebble new-project projName //--simple for no demo code
 set watchapp: {watchface: true}
 // allow up down buttons
