@@ -34,3 +34,13 @@ https://gist.github.com/dmorgan81/1f8740fa49b3bcb6219a713dcb33b2bc <- how I fugr
 pebble wipe (when pebble emulaotr gets stuck)
 
 RESOURCE_ID_FONT_PERFECT_DOS_48 prepend RESOURCE_ID and end with 48 as the height or any other number
+
+
+You need a 24x28 png and add it to the resources in your package.json:
+{
+            "menuIcon": true,
+            "type": "png",
+            "name": "IMAGE_MENU_ICON",
+            "file": "images/menu.png"
+ } 
+I'm actually not sure what the max resolution is for the png, but I have been using 24x28
