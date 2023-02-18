@@ -35,6 +35,10 @@ pebble wipe (when pebble emulaotr gets stuck)
 
 RESOURCE_ID_FONT_PERFECT_DOS_48 prepend RESOURCE_ID and end with 48 as the height or any other number
 
+change python version
+sudo update-alternatives --config python 
+
+
 
 You need a 24x28 png and add it to the resources in your package.json:
 {
